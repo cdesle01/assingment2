@@ -3,21 +3,23 @@
 
 body,html{font-size: 18px}
 		p {color: #000}
-		h1,h2 {font-size:50px; font-family:"Gill Sans", Helvetica, Arial, "sans-serif"}
+		h1 {font-size:50px; font-family:"Gill Sans", Helvetica, Arial, "sans-serif"}
+		h{font-size:50px; font-family:"Gill Sans", Helvetica, Arial, "sans-serif"}
 		h3 {color: #000}
 		a:hover {color:#F3981F}
 
 .control{
-	padding: 30px;
+	padding: 50px;
+	text-color:#FFFFFF;
 }
 
 .header{
-
     background-color: #87ceeb;
     text-align: center;
     padding: 30px;
 		position: fixed;
 		top: 0;
+		left:0;
 		width: 100%;
 }
 
@@ -25,6 +27,11 @@ body,html{font-size: 18px}
 .topnav{
     overflow: hidden;
     background-color: #333;
+		position: fixed;
+		top: 115px;
+		left:0;
+		width: 100%;
+		z-index:5;
 		}
 
     /* Navbar links */
@@ -116,7 +123,7 @@ a#button:hover{
 
 .right-col{
 	background-color: #ddd;
-	width: 33%;
+	width: 32%;
 	display: inline-block;
 	text-align: center;
 }
