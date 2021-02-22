@@ -4,7 +4,7 @@
 body,html{font-size: 18px}
 		p {color: #000}
 		h1 {font-size:50px; font-family:"Gill Sans", Helvetica, Arial, "sans-serif"}
-		h{font-size:50px; font-family:"Gill Sans", Helvetica, Arial, "sans-serif"}
+		h2 {font-size:30px; font-family:"Gill Sans", Helvetica, Arial, "sans-serif"}
 		h3 {color: #000}
 		a:hover {color:#F3981F}
 
@@ -110,20 +110,20 @@ a#button:hover{
 
 .left-col{
 	background-color: #ddd;
-	width: 33%;
+	width: 30%;
 	display: inline-block;
 	text-align: center;
 }
 
 .middle-col{
-	width: 33%;
+	width: 30%;
 	display: inline-block;
 	text-align: center;
 }
 
 .right-col{
 	background-color: #ddd;
-	width: 32%;
+	width: 30%;
 	display: inline-block;
 	text-align: center;
 }
@@ -153,6 +153,7 @@ div.middle-col img {
   position: relative;
   text-align: center;
   z-index: -1;
+	width: 100%;
 }
 
 
