@@ -110,20 +110,20 @@ a#button:hover{
 
 .left-col{
 	background-color: #ddd;
-	width: 30%;
+
 	display: inline-block;
 	text-align: center;
 }
 
 .middle-col{
-	width: 30%;
+
 	display: inline-block;
 	text-align: center;
 }
 
 .right-col{
 	background-color: #ddd;
-	width: 30%;
+
 	display: inline-block;
 	text-align: center;
 }
