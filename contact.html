@@ -5,8 +5,7 @@
 <title>Contact</title>
 <link rel="stylesheet" type="text/css" href="style.css" />
 <style>
-    h1{margin:0; border:0;}
-    h3{margin-top: 0; margin-left: 0; margin-right: 0; margin-bottom: 0.5; border:0;}
+    h1,h3{margin:0; border:0;}
 </style>
 </head>
 
@@ -14,7 +13,9 @@
   <div class="control">
     <p>stuff</p>
   </div>
-  <h1 class="header"> Puppy Promenades </h1>
+  <h1 class="header"> Puppy Promenades
+    <img src="logo.png">
+  </h1>
 
   <h3 class="topnav">
       <a href="contact.html">Contact</a>
@@ -24,40 +25,61 @@
     	<a href="home.html">Home</a>
   </h3>
 
-<h4 style="font-size: 30px">Address: </h4>
-347 Boston Avenue</br>
-Medford, MA 02155<br>
-<h4 style="font-size: 30px">
-  <a href="mailto:puppypromenades@gmail.com">Email</a>
-</h4>
+<br />
+  <div class="form">
+      <br />
+      <h3>Sign Up Today!</h3>
+      <br />
+      <form action='#' method='post'>
+  	Your Name: <input type="text" required='1'>
+  	<br />
+      <br />
+      Phone Number: <input type = "text" required='1'>
+      <br />
+      <br />
+  	Dog's Name: <input type = "text" required='1'>
+  	<br />
+      <br />
+  	Services Required:
+  		<input type="checkbox" name="color" value="Walking">Walking
+  		<input type="checkbox" name="color" value="Day Care">Day Care
+  		<input type="checkbox" name="color" value="Overnight Stay">Overnight Stay
+  	<br />
+      <br />
+  	Additional Information:
+  		<input type="text" >
+  	<br />
+      <br />
+  	<input type = "submit" value = "Submit">
+  </div>
 
-<h4 style="font-size: 30px"> <a href="tel:555-555-5555">Phone</a>
-</h4>
 
-<div class="form">
-    <h3>Sign Up Today!</h3>
-    <form action='#' method='post'>
-	Your Name: <input type="text" required='1'>
-	<br />
-    <br />
-    Phone Number: <input type = "text" required='1'>
-    <br />
-    <br />
-	Dog's Name: <input type = "text" required='1'>
-	<br />
-    <br />
-	Services Required:
-		<input type="checkbox" name="color" value="Walking">Walking
-		<input type="checkbox" name="color" value="Day Care">Day Care
-		<input type="checkbox" name="color" value="Overnight Stay">Overnight Stay
-	<br />
-    <br />
-	Additional Information:
-		<input type="text" >
-	<br />
-    <br />
-	<input type = "submit" value = "Submit">
+    
+
+<div class="box">
+    
+    <h4 style="font-size: 30px">Address: </h4>
+    347 Boston Avenue</br>
+    Medford, MA 02155<br>
+    
+    
 </div>
+
+<div class="box">
+    <h4 style="font-size: 30px">
+      <a href="mailto:puppypromenades@gmail.com">Email</a>
+    </h4>
+
+    
+</div>
+
+<div class="box">
+    
+    <h4 style="font-size: 30px"> <a href="tel:555-555-5555">Phone</a>
+    </h4>
+    
+</div>
+
 
 
 </br></br>

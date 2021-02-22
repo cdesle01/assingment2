@@ -9,7 +9,7 @@ body,html{font-size: 18px}
 		a:hover {color:#F3981F}
 
 .control{
-	padding: 50px;
+	padding: 65px;
 	text-color:#FFFFFF;
 }
 
@@ -23,12 +23,17 @@ body,html{font-size: 18px}
 		width: 100%;
 }
 
+.header img {
+	width: 5%;
+	padding: 2px;
+}
+
     /* The navbar container */
 .topnav{
     overflow: hidden;
     background-color: #333;
 		position: fixed;
-		top: 115px;
+		top: 135px;
 		left:0;
 		width: 100%;
 		z-index:5;
@@ -146,6 +151,13 @@ div.middle-col img {
 .form{
 	background-color: #ddd;
 	display: inline-block;
+	text-align: center;
+	width: 100%;
+}
+
+.box{
+	background-color: #ddd;
+	display: block;
 	text-align: center;
 }
 
